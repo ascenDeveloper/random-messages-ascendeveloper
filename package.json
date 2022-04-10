@@ -11,6 +11,10 @@
     "node",
     "npm"
   ],
-  "author": "",
-  "license": "MIT"
+  "author": "ascend",
+  "license": "MIT",
+  "bin": {
+    "random-msg": "./bin/global.js"
+  },
+  "preferGlobal": true
 }
